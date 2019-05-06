@@ -15,7 +15,16 @@
 	<link href="css/animate.min.css" rel="stylesheet"> 
 	<link href="css/style.css" rel="stylesheet" />	
    <style>
-
+#backing {
+	vertical-align: middle;
+	margin: 0;
+	overflow: hidden;
+}
+#backing svg { 
+	display: inline-block;
+	position: absolute;
+	top: 0; left: 0;
+}
 .
 .panel .slidedown .glyphicon, .chat .glyphicon
 {
@@ -49,7 +58,7 @@
 img {
   width: 100%;
   height: 100%;
-
+object-fit: scale-down;
 }
 
 
@@ -215,14 +224,12 @@ window.onclick = function(event) {
 			
 					</div>
 			
-			
-		
 	
 		<div class="container">
 			<div class="text-center">
-				<h3>You are on the GROUND FLOOR</h3>
+				<h2>You are on the GROUND FLOOR</h2>
 <br>
-				<p> Please select the room to navigate to </p>
+				<p> ---Please select the room to navigate to--- </p>
 
 
 <img src="Bhall.jpg" usemap="#image-map">
@@ -231,6 +238,8 @@ window.onclick = function(event) {
     <area target="" alt="Room B115" title="Room B115" href="B115Nav.html" coords="515,188,411,103" shape="rect">
     <area target="" alt="Room B114" title="Room B114" href="B114Nav.html" coords="192,101,277,187" shape="rect">
 </map>
+
+
 
 		</div>
 		</div>
