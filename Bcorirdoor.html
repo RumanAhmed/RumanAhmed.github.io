@@ -46,11 +46,7 @@
     background-color: #555;
 }
 
-img {
-  width: 100%;
-  height: 100%;
 
-}
 
 
 
@@ -215,13 +211,12 @@ window.onclick = function(event) {
 			
 					</div>
 			
-			
 	
 		<div class="container">
 			<div class="text-center">
 				<h2>You are on the FIRST FLOOR</h2>
 <br>
-<p> Please select the room to navigate to </p>
+<p> ---Please select the room to navigate to--- </p>
 
 <img src="Bhall.jpg" usemap="#image-map">
 
@@ -305,8 +300,11 @@ window.onclick = function(event) {
 		}	) 
 		.init();
 	</script>
-
-
+<script type=”text/javascript” src=https://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js></script>
+<script> $('img[usemap]').rwdImageMaps();
+$(document).ready(function(e) {
+    $('img[usemap]').rwdImageMaps();
+}); </script>
 
 
   
