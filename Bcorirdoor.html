@@ -16,7 +16,12 @@
 	<link href="css/style.css" rel="stylesheet" />	
    <style>
 
-.
+h3 {
+   color: #ea503f;
+   font-family: Arial Black;
+ }
+
+
 .panel .slidedown .glyphicon, .chat .glyphicon
 {
     margin-right: 5px;
@@ -45,6 +50,8 @@
     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
     background-color: #555;
 }
+
+
 
 
 
@@ -123,13 +130,11 @@
   display: block;
 }
 
-/* Change colour of dropdown links on hover */
+/* Change color of dropdown links on hover */
 .dropdown-content a:hover {background-color: #ddd}
 
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {display:block;}
-
-
 </style>
 
   </head>
@@ -141,7 +146,7 @@
         <nav class="navbar navbar-fixed-top" role="banner">
             <div class="container">
                 
-                    
+</div>
                     <a class="navbar-brand" href="index.html">UniWays</a>
                 </div>			
 <!-- Custom CSS -->
@@ -149,10 +154,10 @@
 
     
 
-    <title>UniWaysf</title>
+    <title>UniWays</title>
   </head>
 
-  
+
   <body>  
 
             </div>	
@@ -163,8 +168,9 @@
 	<div class="slider">		
 		<div id="about-slider">
 			<div id="carousel-slider" class="carousel slide" data-ride="carousel">
+				
 
-<div class="dropdown">
+		<div class="dropdown">
   <button onclick="myFunction()" class="dropbtn">Dropdown</button>
   <div id="myDropdown" class="dropdown-content">
     <a href="index.html">Home</a>
@@ -193,42 +199,58 @@ window.onclick = function(event) {
     }
   }
 }
-</script>
-
-
-	    
+</script>					
+				    	    
     <!-- Content -->
-  
-
-
+    
+           
+   
 		<div class="container">
 	<div id="one">
 			<div class="text-center">
-<div>
-<h3> Welcome to UniWays </h3>
-</div>
-<h2 style= "font-family:Arial;">To get started, scan the QR code located throughout the corridors with your phone. </h2>
-				<h3> B corridor </h3>
-				<h2><a href="BcorridorHome.html" class="btn btn-primary">CLICK HERE</a></h2>
-			</div>
-			
+				<h3> B CORRIDOR </h3>
 
-					
 				
-							</div>
-		</div>
-		</div>
+			</div>
+			<div class="row">
+			
+					</div>
+			
 	
+		<div class="container">
+			<div class="text-center">
+				<h2>You are on the FIRST FLOOR</h2>
+<br>
+<p> ---Please select the room to navigate to--- </p>
+
+<img src="Bhall.jpg" usemap="#image-map">
+
+<map name="image-map">
+    <area target="" alt="B101" title="B101" href="B101Nav.html" coords="85,662,51,674,33,712,86,712" shape="poly">
+    <area target="" alt="B102" title="B102" href="B102Nav.html" coords="257,721,308,720,298,754,257,773" shape="poly">
+    <area target="" alt="B106" title="B106" href="B106Nav.html" coords="257,632,311,631,296,667,259,686" shape="poly">
+    <area target="" alt="B105" title="B105" href="B105Nav.html" coords="85,580,83,526,49,543,30,579" shape="poly">
+    <area target="" alt="B108" title="B108" href="B108Nav.html" coords="259,540,257,488,310,486,301,518,291,531,285,533" shape="poly">
+    <area target="" alt="B109" title="B109" href="B109Nav.html" coords="31,445,83,445,82,394,49,407" shape="poly">
+    <area target="" alt="B110" title="B110" href="B110Nav.html" coords="254,459,296,444,310,409,256,406" shape="poly">
+    <area target="" alt="B112" title="B112" href="B112Nav.html" coords="256,351,257,297,309,298,300,333" shape="poly">
+    <area target="" alt="B115" title="B115" href="B115Nav.html" coords="86,338,30,340,45,297,86,284" shape="poly">
+    <area target="" alt="B114" title="B114" href="B114Nav.html" coords="256,265,255,211,309,211,300,249" shape="poly">
+    <area target="" alt="B117" title="B117" href="B117Nav.html" coords="88,236,31,236,45,198,86,182" shape="poly">
+    <area target="" alt="B118" title="B118" href="B118Nav.html" coords="255,145,255,89,309,90,300,124" shape="poly">
+    <area target="" alt="B119" title="B119" href="B119Nav.html" coords="86,89,31,91,47,53,87,37" shape="poly">
+</map>
+
+
+		</div>
+		</div>
+		</div>	
+		</div>
+		</div>
+		</div>
 	</div>
 	
-				
-			
-	
-	
-			</div>
-		</div>
 		
-	
 	<footer>
 		<div id="contact">
 			<div class="container">
@@ -294,8 +316,11 @@ window.onclick = function(event) {
 		}	) 
 		.init();
 	</script>
-
-
+<script type=”text/javascript” src=https://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js></script>
+<script> $('img[usemap]').rwdImageMaps();
+$(document).ready(function(e) {
+    $('img[usemap]').rwdImageMaps();
+}); </script>
 
 
   
