@@ -15,7 +15,10 @@
 	<link href="css/animate.min.css" rel="stylesheet"> 
 	<link href="css/style.css" rel="stylesheet" />	
    <style>
-
+h3 {
+   color: #ea503f;
+   font-family: Arial Black;
+ }
 .
 .panel .slidedown .glyphicon, .chat .glyphicon
 {
@@ -44,6 +47,11 @@
 {
     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
     background-color: #555;
+}
+
+img {
+  width: 100%;
+  height: auto;
 }
 
 
@@ -123,13 +131,11 @@
   display: block;
 }
 
-/* Change colour of dropdown links on hover */
+/* Change color of dropdown links on hover */
 .dropdown-content a:hover {background-color: #ddd}
 
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {display:block;}
-
-
 </style>
 
   </head>
@@ -141,7 +147,7 @@
         <nav class="navbar navbar-fixed-top" role="banner">
             <div class="container">
                 
-                    
+</div>
                     <a class="navbar-brand" href="index.html">UniWays</a>
                 </div>			
 <!-- Custom CSS -->
@@ -149,10 +155,10 @@
 
     
 
-    <title>UniWaysf</title>
+    <title>UniWays</title>
   </head>
 
-  
+ 
   <body>  
 
             </div>	
@@ -163,12 +169,13 @@
 	<div class="slider">		
 		<div id="about-slider">
 			<div id="carousel-slider" class="carousel slide" data-ride="carousel">
+				
 
-<div class="dropdown">
+		<div class="dropdown">
   <button onclick="myFunction()" class="dropbtn">Dropdown</button>
   <div id="myDropdown" class="dropdown-content">
     <a href="index.html">Home</a>
-    <a href="BcorridorHome.html">B Corirdoor</a>
+    <a href="bcorirdoor.html">B Corirdoor</a>
     <a href="#contact">Contact</a>
   </div>
 </div>
@@ -193,41 +200,52 @@ window.onclick = function(event) {
     }
   }
 }
-</script>
-
-
-	    
+</script>					
+				    	    
     <!-- Content -->
-  
-
-
+   
 		<div class="container">
 	<div id="one">
 			<div class="text-center">
-<div>
-<h3> Welcome to UniWays </h3>
-</div>
-<h2 style= "font-family:Arial;">To get started, scan the QR code located throughout the corridors with your phone. </h2>
-				<h3> B corridor </h3>
-				<h2><a href="BcorridorHome.html" class="btn btn-primary">CLICK HERE</a></h2>
-			</div>
-			
+				<h3> B CORRIDOR </h3>
 
-					
 				
-							</div>
-		</div>
-		</div>
-	
-	</div>
-	
-				
+			</div>
+
+<button onclick="goBack()">Go Back</button>
+
+<script>
+function goBack() {
+  window.history.back();
+}
+</script>
+			
 			
 	
 	
+	<div id="two">
+		<div class="container">
+			<div class="text-center">
+				<h3>FIRST FLOOR</h3>
+<div class="container">
+	<div id="one">
+			<div class="text-center">
+				<h2> You have selected to navigate to - "B109" </h2>
+
+				
 			</div>
+<img src="B109.jpg" usemap="#image-map">
+
+
+
+			
 		</div>
-		
+		</div>
+		</div>          
+		</div>
+		</div>
+					
+					
 	
 	<footer>
 		<div id="contact">
